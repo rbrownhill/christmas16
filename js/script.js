@@ -1,5 +1,7 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
+  $("#robert").hide();
+
  $("#showRobert").click( function(){
   $("#eddie").hide();
   $("#robert").show();
